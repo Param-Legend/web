@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  
+ 
+}
+
+.ta{
+  
+padding: 3% 0%;
+text-align: center;
+
+position:static;
+ color: white;
+background-color:black;
+background-position: 20px;
+font-size: xx-large;
+border: 2px solid white;
+
+}
+.bt{
+
+font-size: larger;
+
+}
+.inner{
+
+  width:100%;
+  height:237%;
+  
+  position: absolute;
+  top: 0%;
+
+  background-repeat: no-repeat;
+  background-size: 400% 400%;
+}
+.tat{
+  min-height: 100vh;
+width: 100%;
+background-image: url(t2.jpg);
+text-align: center;
+ ;
+background-size: cover;
+position: absolute;
+color: white;
+
+}
+.tat:hover .inner{
+background-position: 100% 100%;
+
+
+
+}
+.id{
+background-color:black;
+color:white;
+border:3px solid white;
+width:100px;
+
+}
+.id2{
+  background-color:white;
+  color:black;
+  border:3px solid black;
+  width:100px;
+  
+  }
